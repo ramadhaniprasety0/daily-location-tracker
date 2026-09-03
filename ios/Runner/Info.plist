@@ -66,5 +66,17 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Aplikasi ini membutuhkan akses lokasi untuk mencatat riwayat perjalanan harian Anda secara akurat.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Aplikasi ini perlu mengakses lokasi Anda di latar belakang untuk mencatat lokasi harian Anda secara otomatis tanpa perlu membuka aplikasi.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Aplikasi ini perlu mengakses lokasi Anda di latar belakang untuk mencatat lokasi harian Anda secara otomatis tanpa perlu membuka aplikasi.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>location</string>
+	</array>
 </dict>
 </plist>
